@@ -94,3 +94,4 @@ The backend starts at `http://0.0.0.0:8000`.
 ## 🔒 Security
 - **Zero API keys in Android Studio client code**: All Gemini AI, MapTiler, and database secrets live strictly on the backend.
 - `.env` and local database files are excluded from Git version control.
+
