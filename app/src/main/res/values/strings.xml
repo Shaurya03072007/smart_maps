@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Smart Maps</string>
+    <string name="app_tagline">AI-powered vendor &amp; local discovery</string>
+
+    <!-- =============================================
+         Backend Agentic Platform Endpoint (Zero API Keys in Client)
+         ============================================= -->
+    <!-- 127.0.0.1:8000 (USB adb reverse) with automatic fallback to LAN IP & 10.0.2.2 (Emulator) -->
+    <string name="backend_base_url">http://127.0.0.1:8000/</string>
+    <string name="overpass_base_url">https://overpass-api.de/api/</string>
+    <string name="nominatim_base_url">https://nominatim.openstreetmap.org/</string>
+
+    <!-- Keyless Open Vector Map Style (OpenFreeMap Liberty) -->
+    <string name="map_style_url">https://tiles.openfreemap.org/styles/liberty</string>
+
+    <!-- =============================================
+         UI Strings
+         ============================================= -->
+    <string name="search_hint">Describe your issue or search vendors &amp; places...</string>
+    <string name="ai_greeting">Hi! I\'m your Smart Maps AI Concierge (powered by Google ADK). Describe your service need and I\'ll smart-match the best verified vendors near you.</string>
+
+    <!-- Navigation labels -->
+    <string name="nav_home">Home</string>
+    <string name="nav_map">Map</string>
+    <string name="nav_explore">Vendors</string>
+    <string name="nav_bookings">Bookings</string>
+    <string name="nav_messages">Messages</string>
+    <string name="nav_profile">Profile</string>
+
+    <!-- Permissions -->
+    <string name="permission_location_title">Location Access</string>
+    <string name="permission_location_rationale">Smart Maps needs your location to smart-match nearby verified vendors and places.</string>
+    <string name="permission_denied_message">Location permission is required to find nearby vendors. Please enable it in Settings.</string>
+    <string name="open_settings">Open Settings</string>
+
+    <!-- Common actions -->
+    <string name="action_call">Call</string>
+    <string name="action_chat">Chat</string>
+    <string name="action_book">Book</string>
+    <string name="action_directions">Directions</string>
+    <string name="action_save">Save</string>
+    <string name="action_share">Share</string>
+    <string name="action_view_details">View Details</string>
+    <string name="action_retry">Retry</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_confirm">Confirm</string>
+    <string name="action_submit">Submit</string>
+
+    <!-- Status labels -->
+    <string name="status_available">Available</string>
+    <string name="status_unavailable">Unavailable</string>
+    <string name="status_open">Open now</string>
+    <string name="status_closed">Closed</string>
+    <string name="status_loading">Loading…</string>
+    <string name="status_no_results">No results found</string>
+    <string name="status_error">Something went wrong</string>
+
+    <!-- Distance -->
+    <string name="distance_km">%1$.1f km</string>
+    <string name="distance_m">%1$d m</string>
+
+    <!-- Booking statuses -->
+    <string name="booking_pending">Pending</string>
+    <string name="booking_accepted">Accepted</string>
+    <string name="booking_rejected">Rejected</string>
+    <string name="booking_cancelled">Cancelled</string>
+    <string name="booking_on_way">On the Way</string>
+    <string name="booking_arrived">Arrived</string>
+    <string name="booking_in_progress">In Progress</string>
+    <string name="booking_completed">Completed</string>
+    <string name="booking_disputed">Disputed</string>
+
+    <!-- AI disclaimer -->
+    <string name="ai_estimate_disclaimer">Labour cost is an AI estimate. Final quote confirmed with vendor.</string>
+</resources>
